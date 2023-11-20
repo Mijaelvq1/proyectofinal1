@@ -1,0 +1,74 @@
+#contenedor {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 4px double #e9ebbf;
+    text-align: center;
+    background-color: #5a4e3c;
+    border-radius: 35px;
+}
+h2{
+    font-family: 'Itim', cursive;
+    color: wheat;
+}
+body{
+    background: #CCCCB2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #757519, #CCCCB2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #757519, #CCCCB2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-family: 'Rancho', cursive;
+    color: #e9ebbf;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+button {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #418e8e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 2s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.mensaje-temporal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to bottom, #1975709d, #b3b2cca6),url("../images/iase.jpg");
+    background-color: #f5ecbc;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+    font-family: 'Redressed', cursive;
+    font-size: 3em;
+    line-height: 20em;
+    background-size: cover;
+}
+
+/*Estetica 100% hecha por Mijael*/
